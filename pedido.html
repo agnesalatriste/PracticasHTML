@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang= "en">
+
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+    <meta name="viewport "content="width-device-widht, initial-scale=1.0">
+    <title>Pedido</title>
+</head>
+<body>
+    <img src="C:\Users\agnes\OneDrive\Escritorio\Curso Full stack\Frontend\HTML\pastelerialogo.png" alt="'X TS'UNU'UM'">
+    <h1>Hacer pedido</h1>
+
+    <form action="pedido.js">
+        <label for="nombre">Ingrese su nombre, porfavor:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        
+        <label for="telefono1">Ingrese un número para contactarle</label>
+        <input type= "tel" id="telefono1" name="telefono1" maxlength="10" minlength="10"><br><br>
+
+        <label for="correo1">Ingrese su correo electronico</label>
+        <input type= "mail" id="correo1" name="correo1"><br><br>
+
+        <h2>¡Es momento de personalizar tu pastel!</h2>
+        <p>A continuación se le mostrara la lista de nuestros sabores y adornos, junto con sus precios.</p>
+
+        <h2>Sabores</h2>
+        <p>Puede seleccionar más de uno</p>
+
+        <h3>Panes</h3>
+        <label for="sabores1">Vainilla...$100</label>
+        <input type= "checkbox" id="sabores1" name="sabores1" value ="sabores1"><br>
+        <label for="sabores2">Chocolate...$120</label>
+        <input type= "checkbox" id="sabores2" name="sabores2" value ="sabores2"><br>
+        <label for="sabores3">Fresa...$120</label>
+        <input type= "checkbox" id="sabores3" name="sabores3" value ="sabores3"><br>
+        <label for="sabores4">Pistache...$180</label>
+        <input type= "checkbox" id="sabores4" name="sabores4" value ="sabores4"><br>
+        <label for="sabores5">Café...$120</label>
+        <input type= "checkbox" id="sabores5" name="sabores5" value ="sabores5"><br>
+        <label for="sabores6">Rompope...$150</label>
+        <input type= "checkbox" id="sabores6" name="sabores6" value ="sabores6"><br>
+        <label for="sabores7">Limón...$100</label>
+        <input type= "checkbox" id="sabores7" name="sabores7" value ="sabores7"><br>
+        <label for="sabores8">Lavanda...$180</label>
+        <input type= "checkbox" id="sabores8" name="sabores8" value ="sabores8"><br>
+        <label for="sabores9">Mora azul...$180</label>
+        <input type= "checkbox" id="sabores9" name="sabores9" value ="sabores9"><br>
+
+        <br><br>
+
+        <h3>Relleno</h3>
+        <label for="rellenos1">Mermelada de frambuesa...$50</label>
+        <input type= "checkbox" id="rellenos1" name="rellenos1" value ="rellenos1"><br>
+        <label for="rellenos2">Ganache de chocolate...$50</label>
+        <input type= "checkbox" id="rellenos2" name="rellenos2" value ="rellenos2"><br>
+        <label for="rellenos3">Crema irlandesa...$60</label>
+        <input type= "checkbox" id="rellenos3" name="rellenos3" value ="rellenos3"><br>
+        <label for="rellenos4">Mermelada de mango...$50</label>
+        <input type= "checkbox" id="rellenos4" name="rellenos4" value ="rellenos4"><br>
+        <label for="rellenos5">Crema de maracuya...$80</label>
+        <input type= "checkbox" id="rellenos5" name="rellenos5" value ="rellenos5"><br>
+        <label for="rellenos6">Cajeta vegetal...$100</label>
+        <input type= "checkbox" id="rellenos6" name="rellenos6" value ="rellenos6"><br>
+        <label for="rellenos7">Vainilla francesa...$110</label>
+        <input type= "checkbox" id="rellenos7" name="rellenos7" value ="rellenos7"><br>
+        <label for="rellenos8">Caramelo...$70</label>
+        <input type= "checkbox" id="rellenos8" name="rellenos8" value ="rellenos8"><br>
+        <label for="rellenos9">Pasta de almendras...$120</label>
+        <input type= "checkbox" id="rellenos9" name="rellenos9" value ="rellenos9"><br>
+      
+        <br><br>
+
+        <h3>Adornos</h3>
+        <label for="adornos1">Espejo de caramelo...$40</label>
+        <input type= "checkbox" id="adornos1" name="adornos1" value ="adornos1"><br>
+        <label for="adornos2">Flores de azucar...$80</label>
+        <input type= "checkbox" id="adornos2" name="adornos2" value ="adornos2"><br>
+        <label for="adornos3">Flores comestibles...$50</label>
+        <input type= "checkbox" id="adornos3" name="adornos3" value ="adornos3"><br>
+        <label for="adornos4">Laminas de oro comestible...$90</label>
+        <input type= "checkbox" id="adornos4" name="adornos4" value ="adornos4"><br>
+        <label for="adornos5">Glaseado espejo...$30</label>
+        <input type= "checkbox" id="adornos5" name="adornos5" value ="adornos5"><br>
+        <label for="adornos6">Frutas de confitadas...$50</label>
+        <input type= "checkbox" id="adornos6" name="adornos6" value ="adornos6"><br>
+        <label for="adornos7">Esferas de chocolate...$70</label>
+        <input type= "checkbox" id="adornos7" name="adornos7" value ="adornos7"><br>
+        <label for="adornos8">Trufas...$60</label>
+        <input type= "checkbox" id="adornos8" name="adornos8" value ="adornos8"><br>
+        <label for="adornos9">Imagen impresa en hoja de arroz...$60</label>
+        <input type= "checkbox" id="adornos9" name="adornos9" value ="adornos9"><br>
+
+        <br><br>
+
+        <label for="text1">Si tiene alguna otra especificación del pastel, favor de ingresarla a continuación,o bien,ingrese una descripción más detallada del pastel:</label><br>
+        <input type= "text" id="text1" name="text1"><br><br>
+
+        <br><br>
+
+        <input type="submit">
+
+    </form>
+
+    
+</body>
+</html>
